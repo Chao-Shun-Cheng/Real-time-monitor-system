@@ -39,7 +39,7 @@ Please modify Receive/MQTT_Subscriber.ipynb to connect correct address of DB bef
 - Query - Show data 
 - 良率 - Perfect object / total object
 
-![image](![image](https://user-images.githubusercontent.com/70463744/122640552-c34b6400-d132-11eb-862e-0fd5c295daec.png))
+![image](https://user-images.githubusercontent.com/70463744/122640552-c34b6400-d132-11eb-862e-0fd5c295daec.png)
 #### *Third - Object Profile*
 ![image](https://user-images.githubusercontent.com/48173999/122634005-32fb2800-d10e-11eb-9313-54bdd00df604.png)
 
