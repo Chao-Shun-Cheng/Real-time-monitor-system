@@ -39,7 +39,8 @@ Please modify Receive/MQTT_Subscriber.ipynb to connect correct address of DB bef
 - Query - Show data 
 - 良率 - Perfect object / total object
 
-![image](https://user-images.githubusercontent.com/70463744/122640552-c34b6400-d132-11eb-862e-0fd5c295daec.png)
+![image](https://user-images.githubusercontent.com/48173999/122641667-5c7d7900-d139-11eb-87c7-e4f50787ef8d.png)
+
 #### *Third - Object Profile*
 ![image](https://user-images.githubusercontent.com/48173999/122634005-32fb2800-d10e-11eb-9313-54bdd00df604.png)
 
@@ -49,3 +50,32 @@ Please modify Receive/MQTT_Subscriber.ipynb to connect correct address of DB bef
 - Receive/Save Image - That means image sended from MQTT. 
 - Receive/User Interface/Data - That means user information. If you want to add User, you need to modify *User Information.xls* and add the photo into *photo floder*.
 - Receive/User Interface/Images - That means images used by Qt.
+
+## SQL
+### Create Database
+```sql
+CREATE DATABASE IOT;
+```
+
+### Use DataBase
+```sql
+use IOT;
+```
+
+### Create Table
+```sql
+CREATE TABLE products (
+	id char(50),
+	OrderNumber char(20) NOT NULL,
+	name char(20) DEFAULT NULL,
+	ObjectType char(20) DEFAULT NULL,
+	Pos char(20) DEFAULT NULL,
+	defection char(20) DEFAULT NULL,
+	image char(50) DEFAULT NULL,
+	Place char(10) DEFAULT NULL,
+	time_start char(50) DEFAULT NULL,
+	time_grab char(50) NOT NULL,
+	time_shipment char(50) NOT NULL,
+	primary key(id)
+);
+```
