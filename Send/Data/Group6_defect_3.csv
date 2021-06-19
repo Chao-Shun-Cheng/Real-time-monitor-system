@@ -1,0 +1,17 @@
+﻿訂單編號,工件編號,瑕疵檢測,影像
+210616,A001,perfect,0.jpg
+210616,A002,perfect,3.jpg
+210616,A003,defect,4.jpg
+210616,A004,perfect,4_.jpg
+210616,A005,perfect,5.jpg
+210616,A006,perfect,6.jpg
+210617,A001,perfect,0.jpg
+210617,A002,perfect,3.jpg
+210617,A003,perfect,4_.jpg
+210617,A004,perfect,6.jpg
+210618,A001,perfect,0.jpg
+210618,A002,perfect,4_.jpg
+210618,A003,perfect,5.jpg
+210618,A004,perfect,4.jpg
+210618,A005,defect,3.jpg
+210618,A006,perfect,6.jpg
