@@ -14,10 +14,11 @@
 #### PC3 run *Receive folder*
 ## Data 
 We can get data from other groups.  
-- Group 5 - *ID, Object name, start time and class of object* 
-- Group 6 - *ID, Object name, result of defect detection and image* 
 - Group 1 - *ID, Object name, Finish time and ID of Shipment* 
 - Group 2 - *ID, Object name, position of object and webcam video* 
+- Group 4 - *ID, Object name, class of object* 
+- Group 5 - *ID, Object name, start time* 
+- Group 6 - *ID, Object name, result of defect detection and image* 
 ## How to use
 #### First Step
 1. Open Mosquitto Broker and allow other PC to connect
@@ -38,7 +39,7 @@ Please modify Receive/MQTT_Subscriber.ipynb to connect correct address of DB bef
 - Query - Show data 
 - 良率 - Perfect object / total object
 
-![image](https://user-images.githubusercontent.com/48173999/122633875-6c7f6380-d10d-11eb-9045-1bcbc4b32251.png)
+![image](![image](https://user-images.githubusercontent.com/70463744/122640552-c34b6400-d132-11eb-862e-0fd5c295daec.png))
 #### *Third - Object Profile*
 ![image](https://user-images.githubusercontent.com/48173999/122634005-32fb2800-d10e-11eb-9313-54bdd00df604.png)
 
